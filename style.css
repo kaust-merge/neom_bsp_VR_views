@@ -1,0 +1,76 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+iframe {
+    width: 90%;
+    height: 75vh;
+    border-radius: 10px;
+}
+
+
+.lightBlack {
+    color: rgb(56, 56, 56);
+}
+
+/* This centers everything responsively */
+header, section, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+#map, #panorama {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 80vh;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+#goBack {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 1vh 2vw 1vh 2vw;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#goBack:active {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 1vh 2vw 1vh 2vw;
+    border-radius: 4px;
+    border: none;
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

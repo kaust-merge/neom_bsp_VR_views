@@ -1,0 +1,95 @@
+[
+    {
+        "y": 420,
+        "x": 1470,
+        "locationName": "Bsp_line_mountain",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "file_list":["day_1.jpg","day_2.jpg","day_3.jpg","day_4.jpg","night_1.jpg","night_2.jpg"],
+            "locationName": "Bsp_line_mountain",
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "Bsp_VR/Bsp_line_mountain/day_1.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    },{
+        "y": 620,
+        "x": 850,
+        "locationName": "Bsp_neom_west",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "file_list":["day_1.jpg","day_2.jpg","day_3.jpg","night_1.jpg","night_2.jpg"],
+            "locationName": "Bsp_neom_west",
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "Bsp_VR/Bsp_neom_west/day_1.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    },{
+        "y": 570,
+        "x": 850,
+        "locationName": "Bsp_neom_west_option_2",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "file_list":["day_1.jpg","day_2.jpg","day_3.jpg","night_1.jpg","night_2.jpg","night_3.jpg"],
+            "locationName": "Bsp_neom_west_option_2",
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "Bsp_VR/Bsp_neom_west_option_2/day_1.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    },{
+        "y": 510,
+        "x": 2470,
+        "locationName": "Bsp_neom_east",
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+            "file_list":["day_1.jpg","day_2.jpg","day_3.jpg"],
+            "locationName": "Bsp_neom_east",
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "Bsp_VR/Bsp_neom_east/day_1.jpg",
+                    "autoLoad": true
+                }
+            }
+
+        }
+    }
+]
